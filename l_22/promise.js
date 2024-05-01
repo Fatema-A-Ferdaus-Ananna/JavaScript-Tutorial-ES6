@@ -87,7 +87,8 @@ Promise.all([promise3, promise4])
 
 Promise.race([promise5, promise6])
     .then((response)=>{
-        document.write(`${response}<br><br>`);      
+        //document.write(`${response}<br><br>`);  
+        console.log(`${response}`);    
     })
 
 
